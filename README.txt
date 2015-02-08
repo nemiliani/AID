@@ -64,4 +64,12 @@ $ python src/clustering/cluster_kmeans.py -f data/winequality-white.csv -p tmp/s
 
 - results/clus.kmeans/sil.vs.cluster.png
 
+---------------------------------------------------
+
+Regresion logistica
+
+- No hay valores faltantes en el dataset
+- agrego una aleatoria para dividir en train y test
+- diagrama de cook vs id
+
 

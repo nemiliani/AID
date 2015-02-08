@@ -11,5 +11,5 @@ if __name__ == '__main__':
 
     df = pandas.read_csv(args.data_file, sep=';', header=0)
     df['quality_2'] = df.apply(lambda x : 0 if x.get('quality') <= 5 else 1, axis=1)
-    df.to_csv(args.output_file, sep=';')
+    df.to_csv(args.output_file)
 
